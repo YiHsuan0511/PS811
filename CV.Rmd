@@ -1,0 +1,57 @@
+---
+title: "Yi-Hsuan Chang Chien"
+author: "Yi Hsuan Chang Chien"
+date: "2021/9/19"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+Name: Yi-Hsuan Chang Chien
+Department address: Oster Farimagsgade 5, 1353 Copenhagen, Denmark
+
+Email address: b03302133@ntu.edu.tw
+
+Website: NA
+
+Other contact information: tel: +45 52686396
+
+Education: 
+  University of Copenhagen 09/01/2020 - current
+    M.Sc. Political Science 
+  Masaryk University Brno 09/01/2018 - 01/11/2019
+    Erasmus+ ICM Exchange Program
+  National Taiwan University 09/15/2014 - 01/11/2019
+    B.A. Political Science
+    
+Research experience:
+  Academia Sinica 06/01/2017 - 06/30/2018
+    Research Assistant
+  National Taiwan University 06/01/2017 - 06/30/2018
+    Research Assistant
+  
+Teaching experience: NA
+Conference presentations: NA 
+
+Awards and fellowships:
+  National Taiwan University Presidential Award 2017
+  Erasmus+ ICM Scholarship
+  
+Service/volunteer work: 
+  NTU Starrain for Autism Kids 2015 - 2016
+  Hello Goodbye Myanmar August 2016
+  
+Professional work experience: NA
+  China Productivity Center 07/01/2019 - 12/11/2019
+    Foreign Affairs Assistant
+
+Language and skills:
+  Madarin Chinese
+  Cantonese
+  English
+
+References: NA
+Other: NA 

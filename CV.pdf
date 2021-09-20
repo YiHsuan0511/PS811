@@ -1,0 +1,107 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Yi-Hsuan Chang Chien},
+  pdfauthor={Yi Hsuan Chang Chien},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+
+\title{Yi-Hsuan Chang Chien}
+\author{Yi Hsuan Chang Chien}
+\date{2021/9/19}
+
+\begin{document}
+\maketitle
+
+Name: Yi-Hsuan Chang Chien Department address: Oster Farimagsgade 5,
+1353 Copenhagen, Denmark
+
+Email address:
+\href{mailto:b03302133@ntu.edu.tw}{\nolinkurl{b03302133@ntu.edu.tw}}
+
+Website: NA
+
+Other contact information: tel: +45 52686396
+
+Education: University of Copenhagen 09/01/2020 - current M.Sc. Political
+Science Masaryk University Brno 09/01/2018 - 01/11/2019 Erasmus+ ICM
+Exchange Program National Taiwan University 09/15/2014 - 01/11/2019 B.A.
+Political Science
+
+Research experience: Academia Sinica 06/01/2017 - 06/30/2018 Research
+Assistant National Taiwan University 06/01/2017 - 06/30/2018 Research
+Assistant
+
+Teaching experience: NA Conference presentations: NA
+
+Awards and fellowships: National Taiwan University Presidential Award
+2017 Erasmus+ ICM Scholarship
+
+Service/volunteer work: NTU Starrain for Autism Kids 2015 - 2016 Hello
+Goodbye Myanmar August 2016
+
+Professional work experience: NA China Productivity Center 07/01/2019 -
+12/11/2019 Foreign Affairs Assistant
+
+Language and skills: Madarin Chinese Cantonese English
+
+References: NA Other: NA
+
+\end{document}
