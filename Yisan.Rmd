@@ -1,0 +1,47 @@
+---
+name: Yi-Hsuan
+surname: Chang Chien
+position: "Visiting Student"
+address: "5121 Holiday Dr."
+phone: 608-901-9255
+email: "ychangchien@wisc.edu"
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::hyndman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Some stuff about me
+
+ * Interested in Regional Politics and Political Economic Models
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "B.A. Political Science", "2014-19", "National Taiwan University", "Taipei City, Taiwan",
+  "M.Sc. Political Science", "ongoing", "University of Copenhagen", "Copenhagen, Denmark",
+  ) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+# Prizes
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  2018, "Erasmus+ ICM Scholarship", "Masarykova Univerzita",
+  2017, "Presidential Award", "National Taiwan University",
+  ) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
